@@ -1,9 +1,87 @@
+/* ------------------------------------------------------------------------------
+New Contact */
+
+/* ----------------------------------------------------------------------------
+New Account style */
+.btn-new-acc {
+  font-size: medium;
+  margin-top: 20px;
+  margin-left: 40px;
+  background-color: teal;
+  color: white;
+  width: 140px;
+  height: 40px;
+  border-radius: 10px;
+}
+.top-first {
+  width: 100%;
+  font-size: 20px;
+  height: 50px;
+  padding-top: 5px;
+  text-align: center;
+}
+.top-second {
+  width: 100%;
+  padding-left: 23px;
+  font-size: 20px;
+  background-color: lavender;
+}
+.container-n-a {
+  width: 100%;
+  height: 515px;
+  border: 2px solid lavenderblush;
+  border-radius: 10px;
+  background-color: snow;
+}
+.form-control {
+  width: 500px;
+  margin-left: 20px;
+}
+.form-select-1 {
+  margin-left: -170px;
+  width: 500px;
+}
+.acc-name {
+  margin-left: 25px;
+}
+label {
+  font-size: 13px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.form-web {
+  margin-left: 215px;
+}
+.form-web-input {
+  margin-left: 210px;
+}
+.footer {
+  width: 100%;
+  height: 70px;
+  border: 1px solid lavender;
+  margin-top: 39px;
+  background-color: #eee !important;
+}
+.btn-centre {
+  width: 300px;
+  padding: 10px;
+  margin-left: 425px;
+}
+.btn-cancel {
+  margin-left: 10px;
+}
+.btn-save {
+  margin-left: 70px;
+}
+/* ----------------------------------------------------------------------------
+New Lead style */
 .form-container {
   width: 600px;
-  height: 1000px;
+  height: 600px;
   padding-top: 10px;
   padding-left: 30px;
   background-color: blueviolet;
+  border-radius: 5px;
 }
 .container {
   margin-left: 50px;
@@ -11,13 +89,12 @@
 .btn-newLead {
   font-size: medium;
   margin-top: 20px;
-  margin-left: 400px;
+  margin-left: 100px;
   background-color: teal;
   color: white;
-  width: 150px;
+  width: 120px;
   height: 40px;
-  margin-left: 190px;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
 .btn-submit {
@@ -29,10 +106,11 @@
   width: 100px;
   margin-left: 0px;
 }
-input {
+.form-input {
   margin-top: -10px;
   margin-left: 200px;
   height: 30px;
+  border: 1px solid #ced4da;
   border-radius: 8px;
   border-color: wheat;
 }
@@ -40,6 +118,8 @@ button {
   font-size: medium;
   color: black;
   font-weight: bold;
+}
+body {
 }
 
 /* ------------------------------------------------------------------------- */

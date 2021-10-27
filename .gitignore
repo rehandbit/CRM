@@ -6,6 +6,7 @@
 .pnp.js
 .README.md
 .gitignore.bak
+.NewContact.js
 
 # testing
 /coverage

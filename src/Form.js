@@ -9,22 +9,22 @@ class Form extends React.Component{
                <p className="p-display" >First Name
                   <input 
                      placeholder="First Name"  
-                     name="firstName" /></p><br/>
+                     name="firstName" className="form-input" /></p><br/>
 
                <p className="p-display" >Last Name
-                  <input name="lastName" /></p><br/>
+                  <input className="form-input"/></p><br/>
 
                <p className="p-display" >Phone no. 
-                  <input name="phone" /></p><br/>
+                  <input className="form-input"/></p><br/>
 
                <p className="p-display" >E-Mail
-                  <input name="eMail" /></p><br/>
+                  <input className="form-input"/></p><br/>
 
                <p className="p-display" >City
-                  <input name="city" /></p><br/>
+                  <input className="form-input"/></p><br/>
 
                <p className="p-display" >Country
-                  <input name="country" /></p><br/>
+                  <input className="form-input" name="country" /></p><br/>
                <button className="btn-submit" type="button" >Submit</button>
             </div>
          </form>
